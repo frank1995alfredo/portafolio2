@@ -19,7 +19,7 @@ const Laravel = () => (
         </div>
        </div>
       
-       <p>Este mini proyecto se desarrollo usando los mismos modelos del proyecto hecho en Go,
+       <p  className='texto-justificado'>Este mini proyecto se desarrollo usando los mismos modelos del proyecto hecho en Go,
           en un inicio se uso postman para hacer pruebas de los end points, despúes se paso a descargar 
           una plantilla en React Js para poder ser consumido, el miniproyecto usa autenticación via token,
           la versión del framework es Laravel 7 con php 7, la conexión a la base de datos se la realizó

@@ -16,8 +16,8 @@ const React = () => (
           </div>
         </div>
        </div>
-       <p>Este es una plantilla que descarge para poder consumir la api que desarrolle con laravel.
-           La plantilla esta hecha con React js, para ralizar las peticiones se usaron los hooks de react, 
+       <p  className='texto-justificado'>Este es una plantilla que descarge para poder consumir la api que desarrolle con laravel.
+           La plantilla esta hecha con React js, para realizar las peticiones se usaron los hooks de react, 
            axios, useEffect, useState, useRef.
               El código esta en Github mediante este enlace <a href="https://github.com/frank1995alfredo/react-laravel.git" target='_blank'>Github</a>
           </p>

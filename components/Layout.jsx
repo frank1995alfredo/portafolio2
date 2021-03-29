@@ -38,7 +38,7 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
         <footer className="bg-dark text-light text-center">
           <div className="container p-4">
             <h1>&copy; Franklin Cañadas</h1>
-            <p>Esta página fue desarrollada con Next js, Html5, Bootstrap4 y css3</p>
+            <p>Esta página está desarrollada con Next js, Html5, Bootstrap5 y css3</p>
             <p>2021 Todos los derechos reservados.</p>
           </div>
         </footer>

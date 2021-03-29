@@ -3,7 +3,6 @@ import { skills, experiences, proyectos } from "../profile";
 import Link from "next/link";
 
 const Index = () => (
-    
   <Layout>
     {/**Header */}
     <header className="row">
@@ -20,14 +19,24 @@ const Index = () => (
             </div>
             <div className="col-md-7">
               <h1>Franklin Cañadas</h1>
-              <h3>Fullstack Developer</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
-                iste aspernatur, ratione a non dolores. Ipsam, iste sit? Odio
-                quae amet doloribus suscipit modi qui dignissimos numquam quis
-                maxime dolore?{" "}
+              <h3>Desarrollador web SPA</h3>
+              <p className="texto-justificado">
+                Hola, mi nombre es Franklin Cañadas, tengo 26 años, soy
+                estudiante titulado de Ing. Sistemas Computacionales me gusta
+                trabajar en equipo, compartir ideas, escribir código, resolver
+                problemas, compartir conocimientos, aprender de los demás,
+                ayudar a los demás con lo que este a mi alcance.{" "}
               </p>
-              <a href="/hireme">Hireme</a>
+              <a
+                className="btn btn-light"
+                tabindex="-1"
+                role="button"
+                href="cv.pdf"
+                target="_blank"
+                download="CV"
+              >
+                Descargar CV
+              </a>
             </div>
           </div>
         </div>
@@ -59,27 +68,21 @@ const Index = () => (
       <div className="col-md-8">
         <div className="card bg-light">
           <div className="card-body">
-            <h1>Experiencia</h1>
+            <h1>Sobre mi</h1>
             <ul>
               {experiences.map((expecience, index) => (
                 <li key={index}>
                   <h3>{expecience.titulo}</h3>
-                  <h5>
-                    {expecience.desde} - {expecience.hasta}
-                  </h5>
                   <p>{expecience.descripcion}</p>
                 </li>
               ))}
             </ul>
-            <Link href="/experiencia">
-              <a className="btn btn-light">Saber mas</a>
-            </Link>
           </div>
         </div>
       </div>
     </div>
 
-    {/**portalfolio */}
+    {/**portafolio */}
 
     <div className="row">
       <div className="col-md-12">
@@ -101,20 +104,14 @@ const Index = () => (
                   </div>
                   <div className="card-body">
                     <h3>{proyecto.nombre}</h3>
-                    <p>{proyecto.descripcion}</p>
+                    <p className="texto-justificado">{proyecto.descripcion}</p>
                     <Link href={proyecto.ruta}>
-              <a className="btn btn-outline-dark">Saber mas</a>
-            </Link>
+                      <a className="btn btn-outline-dark">Saber mas</a>
+                    </Link>
                   </div>
                 </div>
               </div>
             ))}
-          </div>
-
-          <div className="text-center mt-4">
-            <Link href="/portafolio">
-              <a className="btn btn-outline-light">Mas Proyectos</a>
-            </Link>
           </div>
         </div>
       </div>

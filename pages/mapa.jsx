@@ -16,7 +16,7 @@ const React = () => (
           </div>
         </div>
        </div>
-       <p>Es proyecto pequeño en el cual se dibuja un mapa y en el aparecen pequeños puntos de distintos lugares de una ciudad.
+       <p  className='texto-justificado'>Es proyecto pequeño en el cual se dibuja un mapa y en el aparecen pequeños puntos de distintos lugares de una ciudad.
               El código esta en Github mediante este enlace <a href="https://github.com/frank1995alfredo/portafolio.git" target='_blank'>Github</a>
           </p>
       </div>

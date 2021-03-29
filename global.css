@@ -58,3 +58,6 @@ div#__next > div{
     }
 }
 
+.texto-justificado{
+    text-align: justify;
+}
