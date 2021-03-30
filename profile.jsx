@@ -94,19 +94,19 @@ export const proyectos = [
     },
     {
         nombre: 'CV 1',
-        descripcion: 'Es la primera version de mi CV, esta hecho con React Js, html5, css3, bootstrap 5.',
+        descripcion: 'Es la primera versión de mi CV, está hecho con React Js, html5, css3, bootstrap 5.',
         imagen: 'porta1.png',
         ruta: '/cv'
     },
     {
         nombre: 'Mapa con Javascript',
-        descripcion: 'Es una mini practica con javascript en el cual se dibuja un mapa y se muestran distintos puntos.',
+        descripcion: 'Es una mini práctica con javascript en el cuál se dibuja un mapa y se muestran distintos puntos.',
         imagen: 'mapa.png',
         ruta: '/mapa'
     },
     {
         nombre: 'CV 2',
-        descripcion: 'Es una actiualización de mi CV.',
+        descripcion: 'Es una actualización de mi CV.',
         imagen: 'porta2.png',
         ruta: '/cv2'
     },

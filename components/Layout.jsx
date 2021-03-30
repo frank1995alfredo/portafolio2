@@ -21,7 +21,7 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
   }, []);
 
   return (
-    <div className={dark ? "bg-dark transition" : "transition"}>
+    <div className={dark ? "bg-primary transition contenedor" : "transition contenedor"}>
       <Navbar />
       <main className="container py-4">
       
@@ -35,7 +35,7 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
       </main>
 
       {footer && (
-        <footer className="bg-dark text-light text-center">
+        <footer className="bg-primary text-light text-center">
           <div className="container p-4">
             <h1>&copy; Franklin Cañadas</h1>
             <p>Esta página está desarrollada con Next js, Html5, Bootstrap5 y css3</p>

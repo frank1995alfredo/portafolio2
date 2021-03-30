@@ -16,7 +16,7 @@ const React = () => (
           </div>
         </div>
        </div>
-       <p  className='texto-justificado'>Este es una actualización de mi CV usando NextJs, Html5, Css3, Bootstrap4.
+       <p  className='texto-justificado'>Este es una actualización de mi CV usando NextJs, Html5, Css3, Bootstrap5.
            NextJs es un framework de ReactJs para desarrollar páginas web estáticas que van a requerir ser rápidas.
             El código esta en Github mediante este enlace <a href="https://github.com/frank1995alfredo/portafolio2.git" target='_blank'>Github</a>
           </p>

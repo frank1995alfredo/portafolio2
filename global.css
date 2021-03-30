@@ -5,6 +5,10 @@ div#__next > div{
     height: 100%;
 }
 
+.fondo {
+    background-color: rgb(99, 158, 226);
+}
+
 .overflow {
     height: 50%;
     overflow: hidden;
@@ -20,12 +24,12 @@ div#__next > div{
 }
 
 #nprogress .bar {
-    background-color: rgb(182, 64, 64);
+    background-color: rgb(255, 255, 255);
 }
 
 #nprogress .spinner-icon {
-    border-top-color: rgb(182, 64, 64);
-    border-left-color: rgb(182, 64, 64);;
+    border-top-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);;
 }
 
 .transition {
@@ -44,6 +48,7 @@ div#__next > div{
 
 .progress-bar-animation{
     animation: animate-positive 2s;
+    background-color: rgba(38, 49, 204, 0.698);;
 }
 
 @-webkit-keyframes animate-positive {
@@ -60,4 +65,29 @@ div#__next > div{
 
 .texto-justificado{
     text-align: justify;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	background-color: rgb(168, 190, 250);
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: rgb(168, 190, 250);
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: rgb(168, 190, 250);
+	background-image: -webkit-gradient(linear,
+									   40% 0%,
+									   75% 84%,
+									   from(#415e9c),
+									   to(#195191),
+									   color-stop(.6,#5494de))
 }

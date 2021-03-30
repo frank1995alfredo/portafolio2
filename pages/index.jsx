@@ -7,17 +7,17 @@ const Index = () => (
     {/**Header */}
     <header className="row">
       <div className="col-md-12">
-        <div className="card card-body bg-secondary text-light">
+        <div className="card card-body fondo text-light">
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-3">
               <img
                 src="foto.jpg"
                 alt=""
                 className="img-fluid"
-                style={{ height: "200px", width: "200px" }}
+                style={{ height: "200px", width: "220px" }}
               />
             </div>
-            <div className="col-md-7">
+            <div className="col-md-8">
               <h1>Franklin Cañadas</h1>
               <h3>Desarrollador web SPA</h3>
               <p className="texto-justificado">
@@ -55,7 +55,7 @@ const Index = () => (
                 <h5>{skill.skill}</h5>
                 <div className="progress">
                   <div
-                    className="progress-bar progress-bar-animation"
+                    className="progress-bar  progress-bar-animation"
                     role="progressbar"
                     style={{ width: `${skill.porcentage}%` }}
                   ></div>
@@ -86,7 +86,7 @@ const Index = () => (
 
     <div className="row">
       <div className="col-md-12">
-        <div className="card card-body bg-dark">
+        <div className="card card-body bg-primary">
           <div className="row">
             <div className="col-md-12">
               <h1 className="text-center text-light">Portafolio</h1>
@@ -106,7 +106,7 @@ const Index = () => (
                     <h3>{proyecto.nombre}</h3>
                     <p className="texto-justificado">{proyecto.descripcion}</p>
                     <Link href={proyecto.ruta}>
-                      <a className="btn btn-outline-dark">Saber mas</a>
+                      <a className="btn btn-outline-primary">Saber mas</a>
                     </Link>
                   </div>
                 </div>
