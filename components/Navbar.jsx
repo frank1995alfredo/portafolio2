@@ -12,6 +12,9 @@ const Navbar = () => (
           Intereses
         </a>
       </Link>
+      <Link href="/certificados">
+        <a className="navbar-brand">Certificados</a>
+      </Link>
       <Link href="/github">
         <a className="navbar-brand">GitHub</a>
       </Link>

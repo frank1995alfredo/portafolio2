@@ -30,6 +30,7 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
              {title}
            </h1>
          )}
+         
         {children}
         
       </main>
